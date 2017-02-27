@@ -9,3 +9,12 @@
 .w600 {
 	width: 600px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+	float: left;
+}
