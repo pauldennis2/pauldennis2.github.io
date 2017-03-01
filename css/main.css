@@ -4,6 +4,8 @@
 
 .art-bg {
     background-image: url("/assets/space.png") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .w600 {
