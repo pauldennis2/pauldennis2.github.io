@@ -1,0 +1,72 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .mainmenu li a { padding: 30px 10px }
+	.is-sticky .mainmenu li a { padding: 20px 10px }
+	.about-img { margin-bottom: 25px }
+	.about-single-project{ margin-top: 50px }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.navbar-default { padding: 5px 0 }
+	.navbar-brand {
+		padding: 15px;
+		color: #fff !important;
+	}
+	.navbar-collapse { background: #fff none repeat scroll 0 0 }
+	.is-sticky .navbar-brand { padding: 15px 0 }
+	.mainmenu li a,
+	.is-sticky .mainmenu ul.nav.navbar-nav li  a {
+		color: #666 !important;
+		font-size: 12px;
+		padding: 15px;
+	}
+	.section-title h2 { font-size: 28px }
+	.section-title p { font-size: 13px }
+	.header-welcome-area h2 { font-size: 52px }
+	.header-welcome-area p {
+		font-size: 18px;
+		padding: 5px 15px;
+	}
+	.about-img { margin-bottom: 15px }
+	.about_area a.button { margin-right: 5px }
+	.button { padding: 10px }
+	.portfolio-filter ul li {
+		font-size: 10px;
+		margin: 0;
+		padding: 10px;
+	}
+	.single-work { margin-top: 15px }
+	.work-title > h5 { font-size: 14px }
+	.work-title > p { font-size: 12px }
+	.work-icon a { font-size: 16px }
+	.copyright p { font-size: 12px }
+	.single-comment img {
+		float: none;
+		margin-bottom: 10px;
+	}
+	.about-single-project{ margin-top: 50px }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
