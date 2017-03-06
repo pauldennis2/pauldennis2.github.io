@@ -359,7 +359,6 @@ fieldset {
            transition: all 0.36s ease-in-out 0s;
 }
 .social_links a i:hover {
-    background: #009911 none repeat scroll 0 0;
     color: #000;
 }
 /*

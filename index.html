@@ -17,6 +17,7 @@
 	    <!-- FAVICON -->
 	    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png"/>	
 		<!-- All CSS -->
+		<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel=”stylesheet”>
 		<!-- GOOGLE FONT CSS -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Ubuntu:300,400,700" rel="stylesheet">
 		<!-- BOOTSTRAP CSS -->
@@ -78,7 +79,6 @@
 									<li class="active"><a class="smoth-scroll" href="#home">Home</a></li>
 									<li><a class="smoth-scroll" href="#about">About Me</a></li>
 									<li><a class="smoth-scroll" href="#portfolio">Profile</a></li>
-									<li><a class="smoth-scroll" href="#contact">Contact</a></li>
 								</ul>
 							</nav>
 						</div> 
@@ -99,10 +99,15 @@
 									<p>Java Developer</p>
 									<div class="social_links">
 										<ul class="list-unstyled">
-											<li>
-												<a href="https://www.linkedin.com/in/paul-dennis-67ab1a127/"><i class="icon-linkedin"></i></a>
+											<li style="color: white">
 												<a href="https://github.com/pauldennis2/">
-													<img src="assets/img/github_icon.png">
+													<i class="fa fa-github fa-3x"></i>
+												</a>
+												<a href="https://www.linkedin.com/in/paul-dennis-67ab1a127/">
+													<i class="fa fa-linkedin fa-3x" style="margin: 10px"></i>
+												</a>
+												<a href="mailto:pauldennis.misc@gmail.com">
+													<i class="fa fa-envelope fa-3x"></i>
 												</a>
 											</li>
 										</ul>
@@ -176,7 +181,7 @@
 						</div>
 						</div>
 						<a href="assets/PaulDennisResume.pdf" class="button" download>
-						<i class="fa fa-download"></i> Dowload Resume</a>
+						<i class="fa fa-download"></i> Download Resume</a>
 					</div>
 					<!-- / END ABOUT TEXT DESIGN AREA -->
 				</div>
@@ -264,48 +269,6 @@
 			</div>
 		</section>
 		<!-- / END PORTFOLIO DESIGN AREA -->
-
-		<!-- START CONTACT DESIGN AREA -->
-		<section id="contact" class="contact-area section-padding">
-			<div class="container">
-				<div class="row">
-					<!-- START SECTION TITLE DESIGN AREA -->
-					<div class="col-md-12">
-						<div class="section-title text-center">
-							<h2>Contact</h2>
-							<p>Say hello</p>
-						</div>
-					</div>
-					<!-- / END SECTION TITLE DESIGN AREA -->
-				</div>
-				<div class="row">
-					<!-- START CONTACT FORM DESIGN AREA -->
-					<div class="col-md-8 col-md-offset-2">
-						<form id="contact-form" method="post" action="contact.php">
-							<div class="row">
-								<div class="form-group col-md-12 col-sm-12">
-									<input type="text" placeholder="Your Name*" id="first-name" class="form-control" name="name" required="required">
-								</div>
-								<div class="form-group col-md-12 col-sm-12">
-									<input type="email" placeholder="Your Email*" id="email" class="form-control" name="email" required="required">
-								</div>
-								<div class="form-group col-md-12 col-sm-12">
-									<textarea placeholder="Your Message*" id="description" class="form-control" name="message" rows="8" required="required"></textarea>
-								</div>
-								<div class="col-md-12 col-sm-12">
-									<div class="actions text-center">
-										<input type="submit" title="Submit Your Message!" class="button btn-contact-bg" id="submitButton" name="submit" value="Send message">
-										<img src="assets/img/ajax-loader.gif" width="16" height="16" id="loader" style="display:none" alt="loading">
-									</div>
-								</div>
-							</div>
-						</form>
-					</div>
-					<!-- / END CONTACT FORM DESIGN AREA -->
-				</div>
-			</div>
-		</section>
-		<!-- / END CONTACT DESIGN AREA -->
 
 		<!-- START FOOTER DESIGN AREA -->
 		<footer class="copyright text-center">
